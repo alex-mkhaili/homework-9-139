@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    height: 3000px;
 }
 .header-img {
     max-width: 1366px;
@@ -85,6 +84,18 @@ body {
     width: 100%;
     height: 286px;
 }
+.map-relative-block {
+    position: relative;
+}
+.map-dark-theme {
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
 .section-title {
     font-size: 14px;
     font-weight: bold;
@@ -112,4 +123,114 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+/* Footer */
+
+
+.footer-block {
+    max-width: 1366px;
+    background-color: #121212;
+    margin: 0 auto;
+}
+.footer-container {
+    max-width: 1118px;
+    padding: 0 15px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.description-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.desription-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #B1B1B1;
+    line-height: 21px;
+    max-width: 260px;
+    width: 100%;
+    margin: 20px 0;
+}
+.social-icons {
+    font-size: 35px;
+}
+.fb {
+    color: #3B5998;
+}
+.twitter {
+    color: #55ACEE;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.google-plus {
+    color: #DC4E41;
+}
+.footer-info {
+    max-width: 566px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-block-heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-list-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5863F8;
+}
+.contact-info-block {
+    max-width: 260px;
+    width: 100%;
+}
+.mail-block {
+    margin-bottom: 20px;
+}
+.phone-block {
+    margin-bottom: 20px;
+}
+.contact-info {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact-icon {
+    color: #5863F8;
+    margin-right: 10px;
+}
+.copyright-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+}
+.copyright-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #B1B1B1;
+}
+.footer-span {
+    color: #5863F8;
+}
+
+
+
+/* Hover effects */
+
+.map-relative-block:hover .map-dark-theme  {
+    display: none;
 }
