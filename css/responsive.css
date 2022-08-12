@@ -1,0 +1,24 @@
+@media (max-width: 1024px) {
+    
+    .logo-nav-block {
+        padding-bottom: 56px;
+    }
+}
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+        font-size: 22px;
+    }
+    .contact-block {
+        display: none;
+    }
+    .logo-nav-block {
+        padding-bottom: 0;
+    }
+    .logo-link {
+        font-size: 22px;
+    }
+}

@@ -31,6 +31,10 @@ body {
     font-weight: bold;
     color: #fff;
 }
+.burger-bar {
+    display: none;
+    color: #fff;
+}
 .navigation {
     min-width: 570px;
 }
