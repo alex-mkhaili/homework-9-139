@@ -3,8 +3,8 @@
         width: 30%;
     }
 }
+
 @media (max-width: 1024px) {
-    
     .logo-nav-block {
         padding-bottom: 56px;
     }
@@ -12,6 +12,59 @@
         font-size: 38px;
     }
 }
+
+@media (max-width: 1000px) {
+    .description-title {
+        font-size: 20px;
+    }
+    .desription-text {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .footer-block-heading {
+        font-size: 14px;
+    }
+    .footer-list-link {
+        font-size: 12px;
+    }
+    .contact-info {
+        font-size: 12px;
+    }
+    .footer-container {
+        padding-top: 60px;
+    }
+    .copyright-text {
+        font-size: 12px;
+    }
+    .footer-span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+    .hotel-description {
+        display: none;
+    }
+    .footer-content {
+        justify-content: center;
+    }
+    .portfolio-link {
+        display: none;
+    }
+    .copyright-content {
+        justify-content: center;
+        border-top: 1px solid #B1B1B1;
+        padding-top: 20px;
+    }
+    .footer-container {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .footer-contact-info-block {
+        width: unset;
+    }
+}
+
 @media (max-width: 768px) {
     .navigation {
         display: none;
@@ -65,6 +118,7 @@
         margin-bottom: 36px;
     }
 }
+
 @media (max-width: 650px) {
     .contact-icon-blocks {
         flex-direction: column;
@@ -107,7 +161,23 @@
     .img-block img:nth-child(3) {
         margin-bottom: 15px;
     }
+    .useful-links-block {
+        margin-right: 16px;
+    }
+    .privacy-block {
+        margin-right: 16px;
+    }
 }
+
+@media (max-width: 550px) {
+    .copyright-text {
+        font-size: 8px;
+    }
+    .footer-span {
+        font-size: 8px;
+    }
+}
+
 @media (max-width: 480px) {
     .first-section {
         margin-top: 32px;
@@ -139,5 +209,46 @@
     }
     .second-sec-subtitle-block {
         margin-bottom: 32px;
+    }
+    .useful-links-block {
+        display: none;
+    }
+    .icon-background {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 380px) {
+    .footer-block-heading {
+        font-size: 10px;
+    }
+    .footer-list-link {
+        font-size: 9px;
+    }
+    .contact-info {
+        font-size: 9px;
+    }
+    .copyright-text {
+        font-size: 6px;
+    }
+    .footer-container {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .footer-block-heading {
+        margin-bottom: 10px;
+    }
+    .footer-list-item:not(:last-child) {
+        margin-bottom: 2px; 
+    }
+    .mail-block {
+        margin-bottom: 10px;
+    }
+    .phone-block {
+        margin-bottom: 10px;
+    }
+    .copyright-content {
+        margin-top: 30px;
     }
 }

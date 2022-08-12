@@ -82,9 +82,6 @@ body {
 .first-section {
     margin-top: 50px;
 }
-
-/* Map */
-
 .section-block {
     max-width: 1118px;
     margin: 0 auto;
@@ -110,10 +107,6 @@ body {
     height: 100%;
     opacity: 0.3;
 }
-
-
-/* Form */
-
 .form-block {
     max-width: 1118px;
     margin: 0 auto;
@@ -136,9 +129,6 @@ body {
 .subtitle2 {
     max-width: 565px;
 }
-
-/* Input */
-
 .contact-input-block {
     display: flex;
     justify-content: space-between;
@@ -188,10 +178,6 @@ body {
     color: #fff;
     margin-left: 10px;
 }
-
-
-/* Contact Info */
-
 .contact-icon-blocks {
     display: flex;
     justify-content: space-between;
@@ -234,6 +220,7 @@ body {
     margin-bottom: 4px;
 }
 
+
 /* Second section */
 
 .second-section {
@@ -253,7 +240,6 @@ body {
 
 
 /* Footer */
-
 
 .footer-block {
     max-width: 1366px;
